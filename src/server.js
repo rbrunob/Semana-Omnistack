@@ -10,6 +10,8 @@ mongoose.connect('mongodb+srv://oministackdatabase:n53nDNE0aQGHgm3J@oministack.t
     useUnifiedTopology: true,
 })
 
+
+
 //GET, POST, PU, DELETE
 
 //req.query = acessar query params (para filtro)
