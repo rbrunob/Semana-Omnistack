@@ -1,7 +1,14 @@
 const express = require('express');
+const mongoose = require('mongoose');
+
 const routes = require('./route')
 
 const app = express();
+
+mongoose.connect('mongodb+srv://oministackdatabase:n53nDNE0aQGHgm3J@oministack.tlshg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
 
 //GET, POST, PU, DELETE
 
