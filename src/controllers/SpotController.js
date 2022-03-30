@@ -5,4 +5,4 @@ module.exports = {
 
         return res.json({ ok: true })
     }
-}
+};
