@@ -7,8 +7,8 @@ const SpotSchema = new mongoose.Schema({
     techs: [String],
     user: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'user'
     }
 });
 
-module.exports = mongoose.model('User', SpotSchema);
+module.exports = mongoose.model('user', SpotSchema);
